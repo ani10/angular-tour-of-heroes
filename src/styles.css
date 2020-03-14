@@ -17,6 +17,18 @@ body, input[type="text"], button {
   color: #333;
   font-family: Cambria, Georgia;
 }
+
+.hero-details{
+  max-width: 40%;
+  float: left;
+}
+
+.display-images{
+  width: 60vw;
+  float: right;
+  max-height: 60vh;
+}
+
 /* everywhere else */
 * {
   font-family: Arial, Helvetica, sans-serif;
