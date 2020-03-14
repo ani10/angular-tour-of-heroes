@@ -1,0 +1,4 @@
+
+<div class="message fadeIn" *ngIf="messageService.messages.length>0">
+  <div *ngFor='let message of messageService.messages'> {{message}} </div>
+</div>
